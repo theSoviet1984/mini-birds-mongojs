@@ -20,21 +20,11 @@ Note the following sample data, for sightings:
 {
   "name": "osprey", 
   "order": "Accipitriformes",
-  "status": "least concern"
+  "status": "extinct"
 },
 {
   "name": "snowy plover", 
   "order": "Charadriformes", 
-  "status": "least concern"
-},
-{
-  "name": "passenger pigeon",
-  "order": "Columbiformes",
-  "status": "extinct"
-},
-{
-  "name": "greater sage grouse",
-  "order": "GALLIFORMES", 
   "status": "near threatened"
 }]
 ```
