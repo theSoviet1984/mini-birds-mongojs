@@ -1,6 +1,6 @@
-# mini-birds
+# mini-birds-mongojs
  
-We're going to build a **bird sighting** API using four common CRUD operations.
+_Goal_: Build a **bird sighting** API using four common CRUD operations.
 
 ## Sample Data
 
