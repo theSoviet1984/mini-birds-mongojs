@@ -16,12 +16,10 @@ npm install
 
 ## Step 4: Test it
 
-Test your application by running one of the following:
+Start your application by:
  
 ```
 node server.js
-nodemon server.js
-supervisor server.js
 ```
 
 Test each of your endpoints in Postman with the following URLs:
