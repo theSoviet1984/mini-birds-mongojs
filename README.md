@@ -1,7 +1,5 @@
 # mini-birds
  
-## Objectives
-
 We're going to build a **bird-sighting** API using all four traditional CRUD operations.
 
 ## Step 1: Clone the repo
