@@ -41,9 +41,7 @@ Start the mongo daemon in a separate terminal window.
 
 Now, require the MongoJS module, and create a database by connecting to it in `server.js`. Name your database `birds`.
 
-HINT: Read the documentation:
-
-[](https://github.com/mafintosh/mongojs)
+HINT: [Read the documentation](https://github.com/mafintosh/mongojs)
 
 ## Step 7: Declare your `sightings` collection
 
@@ -61,9 +59,9 @@ For steps 8 through 11, test each of your endpoints again.
 
 Modify the GET endpoint to retrieve all sightings with a given `status`, as stated in the request query.
 
-## Step 10: Upgrade 'PUT' endpoint to modify a sighting
+## Step 10: Upgrade 'PUT' endpoint to modify a sighting's order
 
-Update your PUT endpoint to accept a `body` of fields, to modify an existing sighting document. Use the `id` parameter in the query string to identify the sighting to change.
+Update your PUT endpoint to accept a `body` modifying an existing sighting's `order` field. Use the `id` parameter in the query string to identify the sighting to change.
 
 ## Step 11: Upgrade 'DELETE' endpoint to delete a sighting
 
