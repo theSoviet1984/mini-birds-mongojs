@@ -2,6 +2,43 @@
  
 We're going to build a **bird sighting** API using four common CRUD operations.
 
+## Sample Data
+
+Note the following sample data, for sightings:
+
+```json
+[{
+  "name": "red breasted merganser", 
+    "order": "Anseriformes", 
+    "status": "least concern"
+},
+{
+  "name": "cedar waxwing", 
+  "order": "Passeriformes", 
+  "status": "least concern"
+},
+{
+  "name": "osprey", 
+  "order": "Accipitriformes",
+  "status": "least concern"
+},
+{
+  "name": "snowy plover", 
+  "order": "Charadriformes", 
+  "status": "least concern"
+},
+{
+  "name": "passenger pigeon",
+  "order": "Columbiformes",
+  "status": "extinct"
+},
+{
+  "name": "greater sage grouse",
+  "order": "GALLIFORMES", 
+  "status": "near threatened"
+}]
+```
+
 ## Step 1: Clone the repo
 
 Create your Express.js app by cloning this repository.
@@ -47,9 +84,7 @@ Create a var that references a collection called `sightings`.
 
 Upgrade your POST endpoint with code to create a sighting document from the `body` of the request. The body should include `name`, `order`, and `status`.
 
-See `birds.json` in your repository for ideas.
-
-For steps 7 through 10, test each of your endpoints again.
+For steps 7 through 10, test each of your endpoints again. Note the sample data above for your tests.
 
 ## Step 8: Upgrade 'GET' endpoint to retrieve a sighting
 
