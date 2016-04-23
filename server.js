@@ -7,22 +7,22 @@ app.use(bodyParser.json());
 
 var port = 3000;
 
-app.post('/api/sighting', function(req, res){
+app.post('/api/sighting', function(req, res) {
   console.log('POST sighting');
   res.end();
 });
  
-app.get('/api/sighting', function(req, res){
+app.get('/api/sighting', function(req, res) {
   console.log('GET sighting');
   res.end();
 });
  
-app.delete('/api/sighting', function(req, res){
+app.delete('/api/sighting', function(req, res) {
   console.log('DELETE sighting');
   res.end();
 });
  
-app.put('/api/sighting', function(req, res){
+app.put('/api/sighting', function(req, res) {
   console.log('PUT sighting');
   res.end();
 });
