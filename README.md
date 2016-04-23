@@ -14,7 +14,7 @@ npm install
 
 ## Step 3: Test it
 
-Start your application by:
+Start your application by running:
  
 ```
 node server.js
