@@ -1,6 +1,6 @@
 # mini-birds-mongojs
  
-_Goal_: Build a **bird sighting** API using four common CRUD operations.
+_Goal_: Build a **bird sighting** API in Express using four common CRUD operations in MongoDB.
 
 ## Sample Data
 
