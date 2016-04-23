@@ -1,6 +1,6 @@
 # mini-birds
  
-We're going to build a **bird-sighting** API using all four traditional CRUD operations.
+We're going to build a **bird sighting** API using four common CRUD operations.
 
 ## Step 1: Clone the repo
 
